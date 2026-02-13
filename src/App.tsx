@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { useFinance } from './hooks/useFinance';
 import AddTransactionModal from './components/AddTransactionModal';
 import StatCard from './components/StatCard';
 import LoginPage from './components/LoginPage';
 import DashboardChart from './components/DashboardChart';
-import { Plus, Search, Clock } from 'lucide-react';
+import { Plus, Search } from 'lucide-react';
 
 import { cn } from './utils/cn';
 
